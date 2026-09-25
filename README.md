@@ -24,7 +24,7 @@ Miniconda, `uv`, `pnpm`.
 ## Install
 
 ```bash
-git clone https://github.com/nicolas-huber/config.git ~/Code/Personal/config
+git clone https://github.com/HuberNicolas/config.git ~/Code/Personal/config
 cd ~/Code/Personal/config
 ./install.sh              # symlink configs into $HOME (existing files are moved to *.backup)
 ./install.sh --packages   # additionally: brew bundle + VS Code extensions
