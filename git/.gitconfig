@@ -1,0 +1,16 @@
+[user]
+	email = nicolas.huber.dev@gmail.com
+	name = Nicolas Huber
+	signingKey = 
+[gpg]
+	format = openpgp
+	program = gpg
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false
+[gpg "ssh"]
+	program = ssh-keygen
+	allowedSignersFile = 
+[init]
+	defaultBranch = main

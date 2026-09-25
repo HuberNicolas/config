@@ -1,0 +1,11 @@
+# repo path                     -> target (relative to $HOME)
+zsh/.zshrc                      .zshrc
+zsh/.zprofile                   .zprofile
+zsh/.p10k.zsh                   .p10k.zsh
+bash/.bash_profile              .bash_profile
+fish/config.fish                .config/fish/config.fish
+git/.gitconfig                  .gitconfig
+gh/config.yml                   .config/gh/config.yml
+conda/.condarc                  .condarc
+vscode/settings.json            Library/Application Support/Code/User/settings.json
+claude/skills/publish-repo      .claude/skills/publish-repo

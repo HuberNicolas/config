@@ -1,0 +1,28 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Viow Neon",
+    "terminal.integrated.inheritEnv": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "svg.preview.mode": "svg",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.largeFileOptimizations": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3"
+}
